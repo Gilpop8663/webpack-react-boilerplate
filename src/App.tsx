@@ -1,10 +1,16 @@
-import React from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ThemeProvider } from 'styled-components';
+
+import { GlobalStyle } from '@styles/globalStyle';
+import { theme } from '@styles/theme';
+
+const queryClient = new QueryClient();
 
 const App = () => (
-  <>
-    <h1>Hi!</h1>
-  </>
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <QueryClientProvider client={queryClient}></QueryClientProvider>
+  </ThemeProvider>
 );
 
 export default App;
-    

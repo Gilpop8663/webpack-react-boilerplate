@@ -33,6 +33,6 @@
     },
     "outDir": "./dist"
   },
-  "include": ["src", "src/custom.d.ts", "__tests__", "styled-components.d.ts"],
+  "include": ["src", "__tests__"],
   "exclude": ["node_modules"]
 }
