@@ -21,4 +21,9 @@ git clone https://github.com/Gilpop8663/webpack-react-boilerplate.git
 - [Jest](https://github.com/facebook/jest) [ Unit test]
 - [Eslint](https://github.com/eslint/eslint/)
 - [Prettier](https://github.com/prettier/prettier) [ Code formatter ]
-- [Style](https://github.com/webpack-contrib/style-loader) & [CSS Loader](https://github.com/webpack-contrib/css-loader) & [SASS-loader](https://github.com/webpack-contrib/sass-loader)
+- [Style](https://github.com/webpack-contrib/style-loader) & [CSS Loader](https://github.com/webpack-contrib/css-loader)
+- [@Tanstack/react-query](https://tanstack.com/query/latest/docs/react/installation) `4.32.0`
+- [Storybook](https://storybook.js.org/docs/react/get-started/install/) `7.1.0`
+- [Styled-components](https://styled-components.com/docs/basics#installation) `6.0.5`
+- [MSW](https://mswjs.io/) `1.2.3`
+- [React-router-dom](https://reactrouter.com/en/main) `6.14.2`
